@@ -19,7 +19,6 @@
     html, body {
     background-color: #879992;
     font-family: "Inter", sans-serif;
-    text-align: justify;
     }
 
     header {
@@ -49,10 +48,18 @@
         margin-right: 50px;
         color: rgba(255, 255, 255, 0.76);
         text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.288);
+        transition-duration: 1s;
+        font-weight: lighter;
     }
 
     header > nav > a:hover {
-        color: black;
+        color: #38594D;
+        background-color: var(--Verdeescuro);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+        padding: 5px;
+        
         
     }
 
@@ -93,14 +100,15 @@
     #txtcor {
         color: var(--Verdeclaro);
         line-height: 2em;
-        font-weight: bolder;  
+        font-weight: bolder;
+        margin-bottom: 20px;
     }
 
     #secaografico {
         background-color: #14362ab0;
         color: #5ABF9A;
         margin: auto;
-        height: 230px;
+        min-height: 230px;
         max-width: 780px;
         border: 1px solid #5DCAA5;
         border-radius: 10px;
@@ -114,23 +122,28 @@
         height: 160px;
         max-width: 800px;
         border-radius: 10px;
-        margin: 15px 0px;
-        
+        margin: 15px 0px;  
     }
 
     #secaografico > .caixas {
         padding: 5px 20px;
         border: 1px solid var(--Verdeclaro);
         border-radius: 20px;
-        margin-right: 10px;
+        margin: 0px 0px 5px 65px;
         display: inline-block;
+        max-width: 130px;
+        text-align: center;
+    }
+
+    #secaografico > #cxverde {
+        min-width: 124px;
+        border: 1px solid #5dcaa64f;
     }
 
     #secaografico > #cxazul {
         border: 1px solid #2d78a64b;
         background-color: #2d78a628;
         color: #7ab0df;
-
     }
 
     #secaografico > #cxlaranja {
@@ -150,16 +163,18 @@
     article ul {
         columns: 3;
         list-style-type: none;
-        margin-left: 30px;
      }
 
     article li {
         border: 1px solid #40403D;
         border-radius: 10px;
-        height: 100px;
-        max-width: 250px;
+        min-height: 90px;
+        max-width: 200px;
         text-align: center;
-        padding-top: 30px;
+        padding: 20px 2px 0px 2px;
+        margin: auto;
+        box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.144);
+    
     }
 
     article strong {
