@@ -168,8 +168,8 @@
     article li {
         border: 1px solid #40403D;
         border-radius: 10px;
-        min-height: 90px;
-        max-width: 200px;
+        min-height: 100px;
+        max-width: 250px;
         text-align: center;
         padding: 20px 2px 0px 2px;
         margin: auto;
